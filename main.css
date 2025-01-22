@@ -1,0 +1,25 @@
+.images-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+img {
+    width: 600px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    
+}
